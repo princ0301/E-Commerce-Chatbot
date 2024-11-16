@@ -45,3 +45,36 @@ E-Commerce-Chatbot/
 - Groq runtime environment
 - Astra DB account
 - HuggingFace API token
+
+## Steps
+1. Clone the Repository
+```sh
+git clone https://github.com/yourusername/flipkart-chatbot.git
+cd flipkart-chatbot
+```
+2. Install Dependencies
+```sh
+pip install -r requirements.txt
+```
+3. Create a .env File In the project root directory, create a .env file to store sensitive credentials securely. Add the following keys:
+```
+HF_TOKEN="your huggingface API token"
+GROQ_API_KEY="Enter your Groq API key"
+ASTRA_DB_API_ENDPOINT="https://your-astra-db-endpoint"
+ASTRA_DB_APPLICATION_TOKEN="your-astra-db-application-token"
+ASTRA_DB_KEYSPACE="your-keyspace-name"
+```
+Replace the placeholders with your actual credentials.
+
+4. Set Up Astra DB
+- Create a new database in Astra DB.
+- Obtain your API endpoint, application token, and keyspace name.
+
+5. Run ingestion file
+```
+python ecommbot/ingest.py
+```
+6. Run the Chatbot
+```
+python run.py
+```
