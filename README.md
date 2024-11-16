@@ -52,10 +52,12 @@ E-Commerce-Chatbot/
 git clone https://github.com/yourusername/flipkart-chatbot.git
 cd flipkart-chatbot
 ```
+
 2. Install Dependencies
 ```sh
 pip install -r requirements.txt
 ```
+
 3. Create a .env File In the project root directory, create a .env file to store sensitive credentials securely. Add the following keys:
 ```
 HF_TOKEN="your huggingface API token"
@@ -74,7 +76,20 @@ Replace the placeholders with your actual credentials.
 ```
 python ecommbot/ingest.py
 ```
+
 6. Run the Chatbot
 ```
 python run.py
 ```
+## 🤖 Technologies Used
+- LangChain: Conversational AI and chaining logic.
+- Groq: High-performance AI acceleration.
+- Astra DB: Cloud-native database for data storage.
+- Flask: Backend framework for serving the chatbot.
+- BeautifulSoup: Web scraping.
+- Python Libraries: pandas, numpy, sklearn, etc.
+
+## 🌟 Key Highlights
+- Scalable and adaptable design for e-commerce platforms.
+- Seamless integration with any dataset of customer reviews.
+- High accuracy and response quality optimized for user satisfaction.
