@@ -10,7 +10,7 @@ An intelligent, conversational chatbot built using LangChain, Groq, and Astra DB
 - Customizable: Extend the chatbot to other domains or datasets with minimal effort.
 
 ## 📂 Project Structure
-
+```sh
 E-Commerce-Chatbot/                                                                             
 │
 ├── data/                                                                                       
@@ -34,4 +34,5 @@ E-Commerce-Chatbot/
 ├── requirements.txt                # Python dependencies                                       
 ├── .env                            # Environment variables                                     
 ├── app.py                          # Flask app entry point                                    
-└── README.md                       # Project documentation                                     
+└── README.md                       # Project documentation
+```sh                               
