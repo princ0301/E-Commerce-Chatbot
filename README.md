@@ -49,8 +49,8 @@ E-Commerce-Chatbot/
 ## Steps
 1. Clone the Repository
 ```sh
-git clone https://github.com/yourusername/flipkart-chatbot.git
-cd flipkart-chatbot
+git clone https://github.com/princ0301/E-Commerce-Chatbot.git
+cd /E-Commerce-Chatbot
 ```
 
 2. Install Dependencies
