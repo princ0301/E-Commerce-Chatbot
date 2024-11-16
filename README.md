@@ -36,3 +36,12 @@ E-Commerce-Chatbot/
 ├── app.py                          # Flask app entry point                                    
 └── README.md                       # Project documentation
 ```                 
+
+## 🛠️ Installation
+
+## Prerequisites
+- Ensure you have the following installed:
+- Python 3.8 or higher
+- Groq runtime environment
+- Astra DB account
+- HuggingFace API token
