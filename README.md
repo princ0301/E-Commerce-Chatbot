@@ -11,27 +11,27 @@ An intelligent, conversational chatbot built using LangChain, Groq, and Astra DB
 
 ## 📂 Project Structure
 
-E-Commerce-Chatbot/
+E-Commerce-Chatbot/                                                                             
 │
-├── data/
-│   ├── flipkart_reviews.csv               # Scraped reviews dataset
+├── data/                                                                                       
+│   ├── flipkart_reviews.csv               # Scraped reviews dataset                            
 │
-├── ecommbot/
-│   ├── __init__.py
-│   ├── data_converter.py                  # Convert data into JSON File
-│   ├── ingest.py                          # Ingestion of data to AstraDB
-│   ├── retrieval_generation.py            # Retrieval Generation (RAG)
+├── ecommbot/                                                                                   
+│   ├── __init__.py                                                                             
+│   ├── data_converter.py                  # Convert data into JSON File                        
+│   ├── ingest.py                          # Ingestion of data to AstraDB                       
+│   ├── retrieval_generation.py            # Retrieval Generation (RAG)                         
 │
-├── notebook/
-│   ├── trial.ipynb                        # Experiment notebook
+├── notebook/                                                                                   
+│   ├── trial.ipynb                        # Experiment notebook                                
 │
-├── templates/
-│   ├── chat.html                          # Web interface for the chatbot
+├── templates/                                                                                  
+│   ├── chat.html                          # Web interface for the chatbot                      
 │
-├── static/
-│   └── style.css                          # CSS files for UI
+├── static/                                                                                    
+│   └── style.css                          # CSS files for UI                                  
 │
-├── requirements.txt                # Python dependencies
-├── .env                            # Environment variables
-├── app.py                          # Flask app entry point
-└── README.md                       # Project documentation
+├── requirements.txt                # Python dependencies                                       
+├── .env                            # Environment variables                                     
+├── app.py                          # Flask app entry point                                    
+└── README.md                       # Project documentation                                     
