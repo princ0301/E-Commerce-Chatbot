@@ -35,4 +35,4 @@ E-Commerce-Chatbot/
 ├── .env                            # Environment variables                                     
 ├── app.py                          # Flask app entry point                                    
 └── README.md                       # Project documentation
-```sh                               
+```                 
